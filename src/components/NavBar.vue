@@ -6,7 +6,7 @@ export default {};
     <div class="logo">
       <h1>
         HORODESKI<br />
-        <span> developer </span>
+        <span> desenvolvedor FrontEnd</span>
       </h1>
     </div>
     <input type="checkbox" id="click" />
@@ -16,12 +16,8 @@ export default {};
 
     <ul>
       <li><a class="active" href="#">Home</a></li>
-      <li><a href="#">Sobre mim</a></li>
+      <li><a href="#">Skills</a></li>
       <li><a href="#">Projetos</a></li>
     </ul>
   </nav>
-  <div class="content">
-    <div>Responsive Navigation Menu Bar Design</div>
-    <div>using only HTML & CSS</div>
-  </div>
 </template>

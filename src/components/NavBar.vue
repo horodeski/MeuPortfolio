@@ -4,20 +4,15 @@ export default {};
 <template>
   <nav>
     <div class="logo">
-      <h1>
-        HORODESKI<br />
-        <span> desenvolvedor FrontEnd</span>
-      </h1>
+      <img class="eu" src="src/assets/img/eu.jpg" alt="" />
+      <h1>GEOVANA HORODESKI</h1>
+      <h2>desenvolvedora FrontEnd</h2>
     </div>
-    <input type="checkbox" id="click" />
-    <label for="click" class="menu-btn">
-      <i class="fas fa-bars"></i>
-    </label>
-
     <ul>
-      <li><a class="active" href="#">Home</a></li>
-      <li><a href="#">Skills</a></li>
-      <li><a href="#">Projetos</a></li>
+      <li><a class="hover-4"  href="#">Home</a></li>
+      <li><a class="hover-4" href="#">Skills</a></li>
+      <li><a class="hover-4" href="#">Projetos</a></li>
+      <li><a class="hover-4" href="#">Sobre mim</a></li>
     </ul>
   </nav>
 </template>

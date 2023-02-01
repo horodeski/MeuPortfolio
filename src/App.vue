@@ -1,10 +1,14 @@
 <script setup>
-import NavBar from "./components/NavBar.vue";
+import HeaderComp from "./components/HeaderComp.vue";
 </script>
 
 <template>
-  <NavBar />
-  <RouterView />
+  <header>
+    <HeaderComp />
+  </header>
+  <main>
+    
+  </main>
 </template>
 
 <style></style>

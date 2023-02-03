@@ -13,6 +13,6 @@ export default {};
       Este é o portfolio de uma profissional apaixonada por tecnologia e que
       pretende trabalhar com desenvolvimento FrontEnd.
     </p>
-    <box-icon name='down-arrow-square' size='lg' type='solid' color='#29A1D2' ></box-icon>
+    <box-icon name='down-arrow-square' size='lg' class="floating" type='solid' color='#29A1D2' ></box-icon>
   </div>
 </template>

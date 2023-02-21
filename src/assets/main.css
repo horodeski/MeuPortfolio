@@ -23,6 +23,8 @@ header {
 }
 main{
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 p {
@@ -46,7 +48,6 @@ h2 {
 }
 .home {
   position: fixed;
-  margin-left: 92%;
 }
 .home img{
   width: 86px;
@@ -110,13 +111,81 @@ box-icon{
   border-radius: 53px;
   text-align: end;
 }
-.sobre-mim h3{
+h3{
   font-size: 1.5em;
   color: #29A1D2;
 }
 .sobre-mim span{
   font-weight: 600;
   color: #29A1D2;
+}
+.formacao {
+  background-color: #111111;
+  width: 100%;
+  margin-top: 83px;
+  padding: 12px 136px;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.formacao h2 {
+  color: #29A1D2;
+  height: 35px;
+}
+.formacao img {
+  width: 9%;
+  height: 14vh;
+}
+.conteudo {
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+}
+.skills{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 136px;
+  margin-top: 83px;
+}
+.skills p {
+  text-align: center;
+}
+.logo-skills{
+  width: 5rem;
+  height: 4rem;
+}
+.skills .logos {
+  display: flex;
+  width: 67%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.projetos{
+  padding: 12px 75px;
+  margin-top: 83px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.todos-projetos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.card{
+  width: 360px;
+  background-color: #111111;
+  padding: 17px;
+  border-radius: 53px;
+  margin: 0 10px 25px 10px;
+  height: 67vh;
+  
+}
+.card img{
+  width: 100%;
 }
 @media (max-width: 1024px) {
 }

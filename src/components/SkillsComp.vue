@@ -1,0 +1,84 @@
+<script>
+export default {};
+</script>
+<template>
+  <h2>Minhas skills</h2>
+  <p>
+    Gostaria de destacar que estou sempre disposta a adquirir novos
+    conhecimentos e habilidades para me tornar ainda mais eficiente em meu
+    trabalho. Sei que a tecnologia é uma área em constante evolução, e quero
+    sempre estar atualizada e preparada para os desafios que o futuro trará.
+  </p>
+  <div class="logos">
+    <box-icon
+      size="lg"
+      class="logo-skills"
+      name="html5"
+      type="logo"
+      color="#ffffff"
+    ></box-icon>
+    <box-icon
+      size="lg"
+      class="logo-skills"
+      name="css3"
+      type="logo"
+      color="#ffffff"
+    ></box-icon>
+    <box-icon
+      size="lg"
+      class="logo-skills"
+      name="javascript"
+      type="logo"
+      color="#ffffff"
+    ></box-icon>
+    <box-icon
+      size="lg"
+      class="logo-skills"
+      name="sass"
+      type="logo"
+      color="#ffffff"
+    ></box-icon>
+    <box-icon
+      size="lg"
+      class="logo-skills"
+      name="vuejs"
+      type="logo"
+      color="#ffffff"
+    ></box-icon>
+    <box-icon
+      size="lg"
+      class="logo-skills"
+      name="git"
+      type="logo"
+      color="#ffffff"
+    ></box-icon>
+    <box-icon
+      size="lg"
+      class="logo-skills"
+      name="github"
+      type="logo"
+      color="#ffffff"
+    ></box-icon>
+    <box-icon
+      size="lg"
+      class="logo-skills"
+      name="visual-studio"
+      type="logo"
+      color="#ffffff"
+    ></box-icon>
+    <box-icon
+      size="lg"
+      class="logo-skills"
+      name="terminal"
+      type="logo"
+      color="#ffffff"
+    ></box-icon>
+    <box-icon
+      size="lg"
+      class="logo-skills"
+      name="bootstrap"
+      type="logo"
+      color="#ffffff"
+    ></box-icon>
+  </div>
+</template>

@@ -1,10 +1,21 @@
-<script setup>
+<script>
 import HeaderComp from "./components/HeaderComp.vue";
 import ContatoComp from "./components/ContatoComp.vue";
 import SobreMimComp from "./components/SobreMimComp.vue";
 import FormacaoComp from "./components/FormacaoComp.vue";
 import SkillsComp from "./components/SkillsComp.vue";
 import ProjetosComp from "./components/ProjetosComp.vue";
+export default {
+  components: {
+    HeaderComp,
+    ContatoComp,
+    SobreMimComp,
+    FormacaoComp,
+    SkillsComp,
+    ProjetosComp,
+  },
+  
+};
 </script>
 
 <template>
@@ -12,7 +23,9 @@ import ProjetosComp from "./components/ProjetosComp.vue";
     <ContatoComp />
   </aside>
   <aside class="home">
-    <img src="/src/assets/img/logo.png" alt="" />
+    <a href="#home">
+      <img src="/src/assets/img/logo.png" alt="" />
+    </a>
   </aside>
   <header>
     <HeaderComp />

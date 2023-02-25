@@ -6,6 +6,7 @@ export default {
     ImagemProjeto: String,
     Icone: String,
     IconeDois: String,
+    LinkProjeto: String,
   },
 };
 </script>
@@ -16,21 +17,25 @@ export default {
       <h2>{{ NomeProjeto }}</h2>
       <p>{{ DescricaoProjeto }}</p>
       <div class="mais">
-        <button>ver mais</button>
-        <box-icon
-          size="lg"
-          class="logo-skills"
-          :name="Icone"
-          type="logo"
-          color="#ffffff"
-        ></box-icon>
-        <box-icon
-          size="lg"
-          class="logo-skills"
-          :name="IconeDois"
-          type="logo"
-          color="#ffffff"
-        ></box-icon>
+        <a :href="LinkProjeto">
+          <button>detalhes</button>
+        </a>
+        <div>
+          <box-icon
+            size="lg"
+            class="logo-skills"
+            :name="Icone"
+            type="logo"
+            color="#ffffff"
+          ></box-icon>
+          <box-icon
+            size="lg"
+            class="logo-skills"
+            :name="IconeDois"
+            type="logo"
+            color="#ffffff"
+          ></box-icon>
+        </div>
       </div>
     </div>
   </div>

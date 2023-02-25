@@ -14,7 +14,6 @@ export default {
     SkillsComp,
     ProjetosComp,
   },
-  
 };
 </script>
 
@@ -24,7 +23,7 @@ export default {
   </aside>
   <aside class="home">
     <a href="#home">
-      <img src="/src/assets/img/logo.png" alt="" />
+      <img src="@/assets/img/logo.png" alt="" />
     </a>
   </aside>
   <header>

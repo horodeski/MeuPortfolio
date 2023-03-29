@@ -10,7 +10,6 @@
 body {
   background-color: #000000;
   height: 100vh;
-  width: 100vw;
   color: #ffffff;
 }
 
@@ -64,7 +63,7 @@ h2 {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-color: #000000bd;
   align-items: center;
   justify-content: center;

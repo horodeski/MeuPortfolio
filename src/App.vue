@@ -19,12 +19,10 @@ export default {
 
 <template>
   <aside class="contatos">
-    <ContatoComp />
-  </aside>
-  <aside class="home">
-    <a href="#home">
+    <a class="home" href="src/App.vue">
       <img src="@/assets/img/logo.png" alt="" />
     </a>
+    <ContatoComp />
   </aside>
   <header>
     <HeaderComp />

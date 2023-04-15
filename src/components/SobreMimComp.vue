@@ -4,7 +4,7 @@ export default {};
 <template>
   <div class="sobre-mim">
     <h2>Sobre mim</h2>
-    <div>
+    <div class="eu-softSkills">
       <div class="eu">
         <img src="/src/assets/img/eu.jpg" alt="eu" />
         <p>
@@ -12,7 +12,38 @@ export default {};
           soluções web incríveis e intuitivas para os usuários.
         </p>
       </div>
-      <div>x</div>
+      <div class="soft-skills">
+        <div class="card-skills">
+          <box-icon size="lg" color="#fff" name="cool"></box-icon>
+          <div>
+            <h3>Trabalho em equipe</h3>
+            <p>
+              capacidade de colaborar com os outros, ser flexível e adaptar-se a
+              diferentes personalidades e estilos de trabalho
+            </p>
+          </div>
+        </div>
+        <div class="card-skills">
+          <box-icon size="lg" color="#fff" name="cool"></box-icon>
+          <div>
+            <h3>Trabalho em equipe</h3>
+            <p>
+              capacidade de colaborar com os outros, ser flexível e adaptar-se a
+              diferentes personalidades e estilos de trabalho
+            </p>
+          </div>
+        </div>
+        <div class="card-skills">
+          <box-icon size="lg" color="#fff" name="cool"></box-icon>
+          <div>
+            <h3>Trabalho em equipe</h3>
+            <p>
+              capacidade de colaborar com os outros, ser flexível e adaptar-se a
+              diferentes personalidades e estilos de trabalho
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="eu-interesses">

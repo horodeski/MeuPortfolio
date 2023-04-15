@@ -132,11 +132,32 @@ h2 {
   padding: 12px 10%;
 
 }
-.eu {
+.sobre-mim .eu-softSkills {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.sobre-mim .eu-softSkills .soft-skills {
+  width: 60%;
+
+}
+.sobre-mim .eu-softSkills .eu {
   width: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.sobre-mim .eu-softSkills .soft-skills .card-skills {
+  width: 100%;
+  display: flex;
+  border-radius: 17px;
+  padding: 13px;
+  background-color: #111;
+  align-items: center;
+  justify-content: space-around;
+}
+.sobre-mim .eu-softSkills .soft-skills .card-skills div {
+  width: 75%;
 }
 .sobre-mim .eu-interesses {
   display: flex;

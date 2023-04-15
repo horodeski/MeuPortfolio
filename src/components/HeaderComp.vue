@@ -11,7 +11,7 @@ export default {};
     </h1>
     <p>
       Este é o portfolio de uma profissional apaixonada por tecnologia e que
-      pretende trabalhar com desenvolvimento FrontEnd.
+      pretende trabalhar com desenvolvimento.
     </p>
     <box-icon
       name="down-arrow-square"

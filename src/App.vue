@@ -28,8 +28,8 @@ export default {
     <HeaderComp />
   </header>
   <main>
+    <SobreMimComp />
     <section class="sobre-mim">
-      <SobreMimComp />
     </section>
     <section class="formacao">
       <FormacaoComp />

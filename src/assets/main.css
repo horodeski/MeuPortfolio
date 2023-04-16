@@ -17,10 +17,8 @@ header {
   background: url(/src/assets/img/computador.gif) no-repeat;
   background-size: cover;
   background-attachment: fixed;
-
   background-position: center;
   height: 100vh;
-
 }
 
 main {
@@ -47,11 +45,13 @@ h2 {
   align-items: center;
   justify-content: space-between;
 }
+
 .contatos div {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .contatos hr {
   background-color: white;
   height: 20vh;
@@ -98,6 +98,7 @@ h2 {
   border-radius: 50%;
   margin-right: 45px;
 }
+
 .floating {
   animation-name: floating;
   animation-duration: 3s;
@@ -124,6 +125,7 @@ h2 {
 .apresentacao span {
   color: #29A1D2;
 }
+
 .sobre-mim {
   display: flex;
   flex-direction: column;
@@ -131,48 +133,67 @@ h2 {
   padding: 40px 10%;
 
 }
-.sobre-mim .eu-softSkills {
+
+.sobre-mim .eu-skills {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
 }
-.sobre-mim .eu-softSkills .soft-skills {
-  display: flex;
-  flex-direction: column;
+.sobre-mim .eu-skills .skills{
+
 }
-.sobre-mim .eu-softSkills .eu {
+
+.sobre-mim .eu-skills .soft-skills {
+  display: flex;
+}
+
+.sobre-mim .eu-skills .eu {
   display: flex;
   margin: 30px 0;
   align-items: center;
 }
-.sobre-mim .eu-softSkills .eu .infos{
+
+.sobre-mim .eu-skills .eu .infos {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
 }
-.sobre-mim .eu-softSkills .eu .infos .topico{
+
+.sobre-mim .eu-skills .eu .infos .topico {
   color: #29A1D2;
 }
-.sobre-mim .eu-softSkills .soft-skills .card-skills {
+
+.sobre-mim .eu-skills .soft-skills .card-skills {
   width: 100%;
   display: flex;
-  margin: 10px 0;
+  margin: 10px;
   border-radius: 17px;
   padding: 13px;
   background-color: #111;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.sobre-mim .eu-softSkills .soft-skills .card-skills div {
-  width: 75%;
+.sobre-mim .eu-skills .soft-skills .card-skills div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sobre-mim .eu-skills .soft-skills .card-skills div p{
+  text-align: center;
+}
+.sobre-mim .eu-skills .soft-skills .card-skills div h3{
+  color: #29A1D2;
 }
 .sobre-mim .eu-interesses {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .sobre-mim span {
   font-weight: 600;
   color: #29A1D2;
@@ -202,18 +223,6 @@ h2 {
   margin-top: 14px;
   display: flex;
   align-items: center;
-}
-
-.skills {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 12px 136px;
-  margin-top: 83px;
-}
-
-.skills p {
-  text-align: center;
 }
 
 .logo-skills {
@@ -285,6 +294,7 @@ h2 {
 
   width: 100%;
 }
+
 .eu-responsivo {
   display: none;
 }
@@ -325,6 +335,7 @@ h2 {
   .apresentacao h1 {
     font-size: 2.3em;
   }
+
   .apresentacao p {
     width: 75%;
   }
@@ -332,39 +343,48 @@ h2 {
   p {
     font-size: 1.3em;
   }
-  .sobre-mim{
+
+  .sobre-mim {
     width: 75%;
   }
-  .eu-responsivo{
+
+  .eu-responsivo {
     display: flex;
     width: 40%;
     border-radius: 94px;
     margin-left: 0;
   }
+
   .eu {
     display: none;
   }
-  .sobre-mim{
+
+  .sobre-mim {
     text-align: center;
     align-items: center;
   }
-  .sobre-mim div{
+
+  .sobre-mim div {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .formacao img {
     width: 20%;
   }
-  .formacao{
+
+  .formacao {
     padding: 12px 96px;
   }
+
   .conteudo {
     display: flex;
     align-items: center;
     flex-direction: row;
   }
-  .card{
+
+  .card {
     width: 532px;
     align-items: flex-start;
   }

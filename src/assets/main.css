@@ -19,8 +19,11 @@ header {
   background-attachment: fixed;
   background-position: center;
   height: 100vh;
+  margin-bottom: 30px;
 }
-
+section {
+  padding: 15px 10%;
+}
 main {
   display: flex;
   flex-direction: column;
@@ -130,42 +133,51 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px 10%;
 
 }
 
-.sobre-mim .eu-skills {
+.sobre-mim {
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-.sobre-mim .eu-skills .skills{
 
 }
 
-.sobre-mim .eu-skills .soft-skills {
+.sobre-mim .skills {}
+
+.sobre-mim .soft-skills {
   display: flex;
 }
 
-.sobre-mim .eu-skills .eu {
+.sobre-mim .eu {
   display: flex;
   margin: 30px 0;
   align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
-.sobre-mim .eu-skills .eu .infos {
+
+.sobre-mim .eu .infos {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
 }
 
-.sobre-mim .eu-skills .eu .infos .topico {
+.sobre-mim .eu .infos .topico {
   color: #29A1D2;
 }
-
-.sobre-mim .eu-skills .soft-skills .card-skills {
-  width: 100%;
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills .soft-skills .cards{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.skills .soft-skills .card-skills {
+  width: 31%;
   display: flex;
   margin: 10px;
   border-radius: 17px;
@@ -174,27 +186,57 @@ h2 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  transition: transform 1s;
+  transform: scale(90%);
 }
 
-.sobre-mim .eu-skills .soft-skills .card-skills div {
+.skills .soft-skills .card-skills:hover {
+  border: 2px solid #29A1D2;
+  transform: scale(100%);
+  cursor: pointer;
+}
+
+.skills .soft-skills .card-skills div {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.sobre-mim .eu-skills .soft-skills .card-skills div p{
+.skills .soft-skills .card-skills div p {
   text-align: center;
 }
-.sobre-mim .eu-skills .soft-skills .card-skills div h3{
+
+.skills .soft-skills .card-skills div h3 {
   color: #29A1D2;
+}
+.skills .hard-skills .logos .card-hard-skills {
+  display: flex;
+  flex-direction: column;
+  background-color: #111;
+  color: #29a1d2;
+  border-radius: 17px;
+  margin: 6px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#icon, svg {
+  fill: #29A1D2;
+}
+.skills .hard-skills .logos .card-hard-skills .logo-skills:hover {
+  cursor: pointer;
+  fill: #29A1D2;
+}
+.skills .hard-skills {
+  width: 100%;
 }
 .sobre-mim .eu-interesses {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
-.sobre-mim span {
+span {
   font-weight: 600;
   color: #29A1D2;
 }
@@ -232,7 +274,6 @@ h2 {
 
 .skills .logos {
   display: flex;
-  width: 67%;
   flex-wrap: wrap;
   justify-content: center;
 }

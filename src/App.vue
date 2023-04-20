@@ -31,12 +31,13 @@ export default {
     <section class="sobre-mim">
       <SobreMimComp />
     </section>
-    <section class="formacao">
-      <FormacaoComp />
-    </section>
     <section class="skills">
       <SkillsComp />
     </section>
+    <section class="formacao">
+      <FormacaoComp />
+    </section>
+
     <section class="projetos">
       <ProjetosComp />
     </section>

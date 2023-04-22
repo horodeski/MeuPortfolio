@@ -244,12 +244,11 @@ span {
 .formacao {
   background-color: #111111;
   width: 100%;
-  margin-top: 83px;
   padding: 12px 10%;
-  height: 30vh;
+  height: 28vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .formacao h2 {
@@ -260,11 +259,24 @@ span {
 .formacao img {
   width: 7%;
 }
-
-.conteudo {
-  margin-top: 14px;
+#two {
+  height: 6px;
+  background-image: radial-gradient(
+    closest-side,
+    rgb(255, 255, 255),
+    hsla(0, 0%, 50%, 0) 100%);
+  position: relative;  
+}
+.ifc {
+  margin-top: 30px;
   display: flex;
   align-items: center;
+  flex-direction: column;
+}
+.conteudo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .logo-skills {

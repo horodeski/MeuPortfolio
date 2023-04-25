@@ -184,7 +184,7 @@ h2 {
   padding: 13px;
   background-color: #111;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   transition: transform 1s;
   transform: scale(90%);
@@ -236,10 +236,10 @@ h2 {
   align-items: center;
   justify-content: space-between;
 }
-span {
+/* span {
   font-weight: 600;
   color: #29A1D2;
-}
+} */
 
 .formacao {
   background-color: #111111;

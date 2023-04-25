@@ -1,22 +1,39 @@
-<script>
-export default {};
+<script setup>
+import HH2 from './template/HH2.vue';
+
+const skills = [
+  {
+    name: "cool",
+    title: "Trabalho em equipe",
+    description: "capacidade de colaborar com os outros, ser flexível e adaptar-se a diferentes personalidades e estilos de trabalho."
+  },
+  {
+    name: "shocked",
+    title: "Trabalho em equipe",
+    description: "capacidade de colaborar com os outros, ser flexível e adaptar-se a diferentes personalidades e estilos de trabalho."
+  },
+  {
+    name: "wink-tongue",
+    title: "Criatividade",
+    description: " a habilidade de pensar fora da caixa para encontrar soluções inovadoras para problema."
+  }
+]
 </script>
 <template>
   <h2>Skills</h2>
   <div class="soft-skills">
-    <h2><span>&lt;h2&gt;</span>Soft skills<span>&lt;/h2&gt;</span></h2>
-    <div class="cards">
-      <div class="card-skills">
-        <box-icon size="5em" color="#fff" name="cool"></box-icon>
+    <h-h2 text="Soft skills" />
+    <div class="cards" >
+      <div class="card-skills" v-for="(skill, i) in skills" :key="i">
+        <box-icon size="5em" color="#fff" :name="skill.name"></box-icon>
         <div>
-          <h3>Trabalho em equipe</h3>
+          <h3>{{skill.title}}</h3>
           <p>
-            capacidade de colaborar com os outros, ser flexível e adaptar-se a
-            diferentes personalidades e estilos de trabalho.
+            {{skill.description}}
           </p>
         </div>
       </div>
-      <div class="card-skills">
+      <!-- <div class="card-skills">
         <box-icon size="5em" name="shocked" color="#ffffff"></box-icon>
         <div>
           <h3>Resolução de problemas</h3>
@@ -32,12 +49,12 @@ export default {};
             inovadoras para problema.
           </p>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 
   <div class="hard-skills">
-    <h2><span>&lt;h2&gt;</span>Hard skills<span>&lt;/h2&gt;</span></h2>
+    <h-h2 text="Hard skills" />
     <div class="logos">
       <div class="card-hard-skills">
         <!--TEM QUE ARRUMAR ESSA BOMBA AQUI-->

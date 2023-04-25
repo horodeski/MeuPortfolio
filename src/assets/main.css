@@ -245,27 +245,34 @@ span {
   background-color: #111111;
   width: 100%;
   padding: 12px 10%;
-  height: 28vh;
+  height: 35vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
 
-.formacao h2 {
+.formacao .conteudo h2 {
   color: #29A1D2;
   height: 35px;
 }
-
+.formacao .linha .bolinha {
+  width: 45px;
+  height: 45px;
+  border: 5px solid;
+  background-color: #29A1D2;
+  border-radius: 50%;
+}
 .formacao img {
   width: 7%;
 }
-#two {
+.formacao .linha {
+  display: flex;
+  align-items: center;
+}
+.formacao .linha  hr {
+  width: 48%;
   height: 6px;
-  background-image: radial-gradient(
-    closest-side,
-    rgb(255, 255, 255),
-    hsla(0, 0%, 50%, 0) 100%);
-  position: relative;  
+  background-color: white;
 }
 .ifc {
   margin-top: 30px;

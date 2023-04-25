@@ -6,9 +6,15 @@ export default {};
     <h2>Qualificação</h2>
     <div class="ifc">
       <img src="/src/assets/img/if.png" alt="" />
-      <h3>Técnico em informática para internet (2021 - 2023)</h3>
-      <p>Instituto Federal Catarinense - campus Araquari</p>
+      <p></p>
+      <p>Técnico em informática para internet</p>
+      <h3>Instituto Federal Catarinense - campus Araquari</h3>
+      <h2>2023</h2>
     </div>
   </div>
-  <hr id="two" />
+  <div class="linha">
+    <hr>
+    <div class="bolinha">
+    </div>
+  </div>
 </template>

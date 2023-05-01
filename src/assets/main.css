@@ -21,9 +21,11 @@ header {
   height: 100vh;
   margin-bottom: 30px;
 }
+
 section {
   padding: 15px 10%;
 }
+
 main {
   display: flex;
   flex-direction: column;
@@ -165,17 +167,20 @@ h2 {
 .sobre-mim .eu .infos .topico {
   color: #29A1D2;
 }
+
 .skills {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.skills .soft-skills .cards{
+
+.skills .soft-skills .cards {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
 }
+
 .skills .soft-skills .card-skills {
   width: 31%;
   display: flex;
@@ -209,11 +214,11 @@ h2 {
 .skills .soft-skills .card-skills div h3 {
   color: #29A1D2;
 }
+
 .skills .hard-skills .logos .card-hard-skills {
   display: flex;
   flex-direction: column;
-  background-color: #111;
-  color: #29a1d2;
+  color: #ffffff;
   border-radius: 17px;
   margin: 6px;
   padding: 10px;
@@ -221,21 +226,35 @@ h2 {
   justify-content: center;
   flex-wrap: wrap;
 }
-#icon, svg {
-  fill: #29A1D2;
-}
-.skills .hard-skills .logos .card-hard-skills .logo-skills:hover {
+.skills .hard-skills .logos .card-hard-skills:hover {
+  background-color: #111;
+  color: #29A1D2;
   cursor: pointer;
-  fill: #29A1D2;
 }
+
+#efeito {
+  width: 200px;
+  border: 18px solid #0009;
+  transition: 1s;
+}
+#efeito:hover {
+  border: 2px solid #29A1D2;
+}
+
+.skills .hard-skills .logos .card-hard-skills #logo-skills {
+  font-size: 7em;
+}
+
 .skills .hard-skills {
   width: 100%;
 }
+
 .sobre-mim .eu-interesses {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 /* span {
   font-weight: 600;
   color: #29A1D2;
@@ -245,7 +264,6 @@ h2 {
   background-color: #111111;
   width: 100%;
   padding: 12px 10%;
-  height: 35vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -255,31 +273,37 @@ h2 {
   color: #29A1D2;
   height: 35px;
 }
+
 .formacao .linha .bolinha {
-  width: 45px;
-  height: 45px;
+  width: 25px;
+  height: 25px;
   border: 5px solid;
   background-color: #29A1D2;
   border-radius: 50%;
 }
+
 .formacao img {
-  width: 7%;
+  width: 13%;
 }
+
 .formacao .linha {
   display: flex;
   align-items: center;
 }
-.formacao .linha  hr {
-  width: 48%;
+
+.formacao .linha hr {
+  width: 49%;
   height: 6px;
   background-color: white;
 }
+
 .ifc {
-  margin-top: 30px;
+  margin-top: 8px;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
+
 .conteudo {
   display: flex;
   align-items: center;

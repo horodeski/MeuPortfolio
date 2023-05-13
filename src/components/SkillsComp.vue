@@ -25,12 +25,12 @@ const skills = [
 <template>
   <h2>Skills</h2>
   <div class="soft-skills">
-    <h-h2 text="Soft skills" />
+    <h-h2 tag="h3" text="Soft skills" />
     <div class="cards">
       <div class="card-skills" v-for="(skill, i) in skills" :key="i">
         <box-icon size="5em" color="#fff" :name="skill.name"></box-icon>
         <div>
-          <h3>{{ skill.title }}</h3>
+          <h4>{{ skill.title }}</h4>
           <p>
             {{ skill.description }}
           </p>
@@ -40,7 +40,7 @@ const skills = [
   </div>
 
   <div class="hard-skills">
-    <h-h2 text="Hard skills" />
+    <h-h2 tag="h3" text="Hard skills" />
     <div class="logos">
       <div id="efeito" class="card-hard-skills">
         <i class="bx bxl-html5" id="logo-skills"></i>

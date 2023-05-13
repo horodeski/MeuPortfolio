@@ -14,6 +14,7 @@ export default {
       DescricaoProjeto="Landing page responsiva"
       ImagemProjeto="./src/assets/img/betfreg.png"
       LinkProjeto="https://betfreg.vercel.app/"
+      LinkGithub="https://github.com/horodeski/BETFREG"
       Icone="html5"
       IconeDois="css3"
     />
@@ -22,6 +23,7 @@ export default {
       DescricaoProjeto="Puxando api do TMDB com axios em VueJS"
       ImagemProjeto="./src/assets/img/markantonymovies.png"
       LinkProjeto="https://markantonymovies.surge.sh/"
+      LinkGithub="https://github.com/horodeski/MarkAntonyMovies"
       Icone="vuejs"
       IconeDois="css3"
     />
@@ -30,6 +32,7 @@ export default {
       DescricaoProjeto="Puxando dados do BackEnd em javascript puro com axios"
       ImagemProjeto="./src/assets/img/livrariadodudu.png"
       LinkProjeto="https://livrariadodudu2.surge.sh/"
+      LinkGithub="https://github.com/horodeski/AdministracaoLivraria"
       Icone="vuejs"
       IconeDois="heroku"
     />
@@ -37,6 +40,7 @@ export default {
       NomeProjeto="Calculadora de gorjetas"
       DescricaoProjeto="Calculadora de gorjetas em vue"
       ImagemProjeto="./src/assets/img/calculadora.png"
+      LinkGithub="https://github.com/horodeski/CalculadoraGorjetas"
       LinkProjeto="https://calculadora-gorjetas-nine.vercel.app/"
       Icone="vuejs"
       IconeDois="javascript"

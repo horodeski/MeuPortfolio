@@ -1,16 +1,22 @@
 <script>
 export default {
-  props: ["text"],
+  props: ["text", "tag"],
 };
 </script>
 
 <template>
-  <h2><span>&lt;h2&gt;</span>{{ text }}<span>&lt;/h2&gt;</span></h2>
+  <span>&lt;{{ tag }}&gt;</span>
+  <span class="txt">{{ text }}</span>
+  <span>&lt;/{{ tag }}&gt;</span>
 </template>
 
 <style scoped lang="scss">
 span {
   font-weight: 600;
+  font-size: 1.7em;
   color: #29a1d2;
+}
+.txt {
+  color: white;
 }
 </style>

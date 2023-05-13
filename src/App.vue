@@ -2,7 +2,6 @@
 import HeaderComp from "./components/HeaderComp.vue";
 import ContatoComp from "./components/ContatoComp.vue";
 import SobreMimComp from "./components/SobreMimComp.vue";
-import FormacaoComp from "./components/FormacaoComp.vue";
 import SkillsComp from "./components/SkillsComp.vue";
 import ProjetosComp from "./components/ProjetosComp.vue";
 export default {
@@ -10,7 +9,6 @@ export default {
     HeaderComp,
     ContatoComp,
     SobreMimComp,
-    FormacaoComp,
     SkillsComp,
     ProjetosComp,
   },
@@ -31,13 +29,12 @@ export default {
     <section class="sobre-mim">
       <SobreMimComp />
     </section>
-        <section class="formacao">
+    <!--     <section class="formacao">
       <FormacaoComp />
-    </section>
+    </section> -->
     <section class="skills">
       <SkillsComp />
     </section>
-
 
     <section class="projetos">
       <ProjetosComp />

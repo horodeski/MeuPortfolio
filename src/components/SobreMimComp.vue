@@ -1,45 +1,49 @@
-<script>
-export default {};
+<script setup>
+import HH2 from "./template/HH2.vue";
 </script>
 <template>
   <h2>Sobre mim</h2>
   <div class="eu">
     <img src="/src/assets/img/eu.jpg" alt="eu" />
     <div>
-      <p>
-        <span>&lt;p&gt;</span>Sou uma desenvolvedora
-        <span>FullStack</span> apaixonada por criar soluções web incríveis e
-        intuitivas para os usuários.<span>&lt;/p&gt;</span>
-      </p>
+      <!--! olho nessa duds -->
+      <h-h2
+        id="teste"
+        tag="p"
+        text="Sou uma desenvolvedora
+        FullStack apaixonada por criar soluções web incríveis e
+        intuitivas para os usuários."
+      />
+
       <div class="infos">
         <div>
           <div>
-            <h3 class="topico">NOME:</h3>
-            <h3>Geovana Sophia Horodeski</h3>
+            <h3>NOME:</h3>
+            <h4>Geovana Sophia Horodeski</h4>
           </div>
           <div>
-            <h3 class="topico">NASCIMENTO:</h3>
-            <h3>3 de julho de 2006</h3>
+            <h3>NASCIMENTO:</h3>
+            <h4>3 de julho de 2006</h4>
           </div>
           <div>
-            <h3 class="topico">EMAIL:</h3>
-            <h3>geovana.horodeski06@gmail.com</h3>
+            <h3>EMAIL:</h3>
+            <h4>geovana.horodeski06@gmail.com</h4>
           </div>
         </div>
         <div>
           <div>
-            <h3 class="topico">BIO:</h3>
-            <h3>Gosto de ABBA, filmes e FrontEnd</h3>
+            <h3>BIO:</h3>
+            <h4>Gosto de ABBA, filmes e FrontEnd</h4>
           </div>
           <div class="eu-interesses">
             <div>
-              <h3 class="topico">Interesses:</h3>
+              <h3>Interesses:</h3>
               <div>
                 <box-icon
                   size="lg"
+                  color="#ffffff"
                   type="logo"
                   name="css3"
-                  color="#ffffff"
                 ></box-icon>
                 <box-icon
                   size="lg"

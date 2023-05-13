@@ -77,7 +77,7 @@ Nele você pode encontrar:
 <!-- GETTING STARTED -->
 ## Começando o projeto
 
-### Prerequisitos
+### Pré-requisitos
 Ter o NPM instalado
 
 * NPM

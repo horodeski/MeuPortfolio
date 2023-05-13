@@ -49,28 +49,29 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre o projeto
 
-[![Product Name Screen Shot][product-screenshot]](src/assets/img/Captura de tela de 2023-05-12 21-9-54.png)
+<img src="src/assets/img/Captura de tela de 2023-05-12 21-39-54.png"> 
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Este é o meu portfólio onde eu apresento minhas habilidades e experiência na criação de interfaces atraentes e responsivas.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+Nele você pode encontrar:
+* Informações sobre mim
+* Qualificação
+* Skills (HardSkills e SoftSkills)
+* Projetos
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-### Built With
+## Feito com
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Vue][Vue.js]][Vue-url]
+  <a href="https://github.com/horodeski?tab=repositories" target="_blank"><img alt="CSS"
+  src="https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white">
+  </a>
+  <a href="https://github.com/horodeski?tab=repositories" target="_blank"><img alt="VueJS"
+  src="https://img.shields.io/badge/-VueJS-40b684?logo=vue.js&logoColor=white&style=flat-square">
+  </a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

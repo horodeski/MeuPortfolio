@@ -1,4 +1,4 @@
-
+<a name="readme-top"></a>
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -33,7 +33,7 @@
     <li>
       <a href="#comencando-o-projeto">Começando o projeto</a>
       <ul>
-        <li><a href="#prerequisites">Pré-requisitos</a></li>
+        <li><a href="#prerequisitos">Pré-requisitos</a></li>
         <li><a href="#instalacao">Instalação</a></li>
       </ul>
     </li>
@@ -47,8 +47,7 @@
 ## Sobre o projeto
 
 <img src="src/assets/img/Captura de tela de 2023-05-12 21-39-54.png"> 
-
-Este é o meu portfólio onde eu apresento minhas habilidades e experiência na criação de interfaces atraentes e responsivas.
+Meu portfólio apresenta uma variedade de projetos e habilidades técnicas que demonstram minha capacidade de desenvolver soluções completas, desde o front-end até o back-end e o mobile.
 
 Nele você pode encontrar:
 * Informações sobre mim
@@ -63,12 +62,12 @@ Nele você pode encontrar:
 
 ## Feito com
 
-  <a href="https://github.com/horodeski?tab=repositories" target="_blank"><img alt="CSS"
-  src="https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white">
-  </a>
-  <a href="https://github.com/horodeski?tab=repositories" target="_blank"><img alt="VueJS"
-  src="https://img.shields.io/badge/-VueJS-40b684?logo=vue.js&logoColor=white&style=flat-square">
-  </a>
+  * <a href="https://github.com/horodeski?tab=repositories" target="_blank"><img alt="CSS"
+    src="https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white">
+    </a>
+  * <a href="https://github.com/horodeski?tab=repositories" target="_blank"><img alt="VueJS"
+    src="https://img.shields.io/badge/-VueJS-40b684?logo=vue.js&logoColor=white&style=flat-square">
+    </a>
 
 
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
@@ -89,26 +88,20 @@ Ter o NPM instalado
 ### Instalação
 
 
-* Clone the repo
+* Clone o repositório
    ```sh
    git clone https://github.com/horodeski/HumildeTentativaDeFazerUmPortfolio
    ```
 
-* Project Setup
+* Instale os pacotes do Node.js
   ```sh
   npm install
   ```
 
-* Compile and Hot-Reload for Development
+* Inicie o servidor de desenvolvimento
 
   ```sh
   npm run dev
-  ```
-
-* Compile and Minify for Production
-
-  ```sh
-  npm run build
   ```
 
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
@@ -118,6 +111,6 @@ Ter o NPM instalado
 
 Geovana Sophia Horodeski - [@_horodeski](https://twitter.com/_horodeski) - geovana.horodeski06@gmail.com
 
-Project Link: [https://github.com/horodeski/HumildeTentativaDeFazerUmPortfolio](https://github.com/horodeski/HumildeTentativaDeFazerUmPortfolio)
+Link do projeto: [https://github.com/horodeski/HumildeTentativaDeFazerUmPortfolio](https://github.com/horodeski/HumildeTentativaDeFazerUmPortfolio)
 
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>

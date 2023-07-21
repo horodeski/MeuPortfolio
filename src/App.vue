@@ -1,5 +1,5 @@
 <script>
-import HeaderComp from "./components/HeaderComp.vue";
+import HeaderComp from "./components/HeroComp.vue";
 import ContatoComp from "./components/ContatoComp.vue";
 import SobreMimComp from "./components/SobreMimComp.vue";
 import SkillsComp from "./components/SkillsComp.vue";

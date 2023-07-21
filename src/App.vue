@@ -1,12 +1,12 @@
 <script>
-import HeaderComp from "./components/HeroComp.vue";
+import HeroComp from "./components/HeroComp.vue";
 import ContatoComp from "./components/ContatoComp.vue";
 import SobreMimComp from "./components/SobreMimComp.vue";
 import SkillsComp from "./components/SkillsComp.vue";
 import ProjetosComp from "./components/ProjetosComp.vue";
 export default {
   components: {
-    HeaderComp,
+    HeroComp,
     ContatoComp,
     SobreMimComp,
     SkillsComp,
@@ -16,29 +16,12 @@ export default {
 </script>
 
 <template>
-  <aside class="contatos">
-    <a class="home" href="src/App.vue">
-      <img src="@/assets/img/logo.png" alt="" />
-    </a>
-    <ContatoComp />
-  </aside>
-  <header>
-    <HeaderComp />
-  </header>
+  <ContatoComp />
+  <HeroComp />
   <main>
-    <section class="sobre-mim">
-      <SobreMimComp />
-    </section>
-    <!--     <section class="formacao">
-      <FormacaoComp />
-    </section> -->
-    <section class="skills">
-      <SkillsComp />
-    </section>
-
-    <section class="projetos">
-      <ProjetosComp />
-    </section>
+    <SobreMimComp />
+    <SkillsComp />
+    <ProjetosComp />
   </main>
 </template>
 
